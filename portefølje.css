@@ -1,0 +1,153 @@
+/* GENERAL  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "poppins", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+p{
+    color: rgb(52, 52, 209);
+}
+
+/*TRANSITION*/
+
+a, 
+.btn{
+    transition: all 300ms ease;
+}
+
+/*DESKTOP NAV*/
+
+#desktop-nav {
+    align-items: center;
+}
+
+nav, 
+.nav-links {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    height: 17vh;
+}
+
+.nav-links {
+    gap: 2rem;
+    list-style: none;
+        font-size: 1.5rem;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+    align-self: baseline;
+}
+
+a:hover{
+    color: rgb(52, 52, 209);
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.logo:hover {
+    cursor: default;
+}
+
+/*SECTIONS*/
+
+section {
+    padding-top: 4vh;
+    height: 150vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container {
+    display: flex;
+}
+
+/*PROFILE SECTION*/
+
+#profile {
+    display: flex;
+    justify-content: center;
+    /* gap: 5rem;
+    height: 80vh; */
+}
+
+/* .section__pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+} */
+
+.section__text {
+    align-self: center;
+    text-align:center;
+    position: inherit;
+    
+    
+}
+
+.get-to-about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 1rem;
+}
+
+.get-to-about-me > h1 {
+    text-align: center;
+}
+
+.section__text p {
+    font-weight: 600;
+}
+
+
+.section__text__p1 {
+    text-align: center;
+}
+
+.section__text__p1 {
+    font-size: 1.2rem;
+}
+
+.title {
+    font-size: 3rem;
+    /* text align-items: center; */
+}
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.details-container {
+    margin-left: -22rem;
+}
